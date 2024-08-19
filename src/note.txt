@@ -1,0 +1,39 @@
+1.set up window
+2.add bacground for the window and set up canvas
+3.add bird using draw function
+4.create game loop
+5.make the bird move(think of the bird in x y axis 2d graph)
+6.add gravity(slows down)first frame -6 next frame -4 next frame -2 next frame intial then +2,4,8,10
+7.add key listeners
+8.add pipes from right of screen and from top of screen
+9.move the pipes to left
+10.move the pipes
+11.place bottom pipes by creating a opening area between top piep and bottom pipe
+12.create collision with pipes and bird out of frame
+13.add score with each top bottom pipe pass
+14.display score ato the top left of the canvas
+15.restart logic
+
+
+
+
+adding coins
+
+class coins
+    x=coinX
+    y=coiny
+    width=coinWidth
+    height=coinHeight
+    collect=false;
+
+coin[]
+placeCoins()
+    int opening=boardHeight/8
+    Coin coin = new Coin(coinImg)
+    coin.y = topPipe + opening
+
+//draw coins
+ for(int i=0;i<coins.size();i++)
+    Coin coin = coin.get(i)
+
+
